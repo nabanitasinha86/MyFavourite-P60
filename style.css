@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background: url("background.jpg");
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+.images{
+    width:20%;
+    height: 300px;
+}
+.crafts{
+    width:40%;
+    height:200px;
+    transition: transform 0.2s;
+    border:10px dashed aqua;
+}
+.crafts:hover{
+    transform: scale(0.9);
+}
